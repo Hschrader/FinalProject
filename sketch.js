@@ -11,7 +11,7 @@ let pointSound;
 function preload(){
   img = loadImage('assets/Background.png');
   img2 = loadImage('assets/Birdy.png');  
-  //music = loadSound('sounds/Music.mp3');
+  music = loadSound('sounds/Music.mp3');
   pointSound = loadSound('sounds/Blingg.mp3');
   myFont = loadFont('assets/Silkscreen-Bold.ttf');
 } 
@@ -21,8 +21,8 @@ function setup() {
   canvas.parent("sketch-holder");
   bird = new Bird();  
   pipes.push(new Pipe());
-  //music.loop();
-  //music.setVolume(0.3);
+  music.loop();
+  music.setVolume(0.3);
   textFont(myFont);
 
 
