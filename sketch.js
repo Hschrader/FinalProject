@@ -27,7 +27,7 @@ function setup() {
 
 
   let saveButton = createButton('Save Image');
-  saveButton.position(300, 555);
+  saveButton.position(700, 555);
   saveButton.mousePressed(saveCanvasAsImage);
   saveButton.size(90,30);
   saveButton.style('background-color', 'lightyellow'); 
